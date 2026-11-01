@@ -1,5 +1,13 @@
 # @sveltejs/adapter-vercel
 
+## 7.0.3
+
+### Patch Changes
+
+- fix: serve prerendered pages when `paths.base` is set ([#17525](https://github.com/sveltejs/kit/pull/17525))
+- Updated dependencies:
+  - @sveltejs/kit@3.2.0
+
 ## 7.0.2
 
 ### Patch Changes

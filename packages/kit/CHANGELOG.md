@@ -1,5 +1,31 @@
 # @sveltejs/kit
 
+## 3.2.0
+
+### Minor Changes
+
+- feat: Add clickable links to remote function invocation in dev server logs ([#17547](https://github.com/sveltejs/kit/pull/17547))
+
+### Patch Changes
+
+- fix: reject binary remote forms referencing files with an empty file-offset table as 400 Bad Request ([#17579](https://github.com/sveltejs/kit/pull/17579))
+
+- fix: correctly populate route and params for `afterNavigate` during hydration ([#17577](https://github.com/sveltejs/kit/pull/17577))
+
+- fix: include assets imported through dynamic imports, remote functions and param matchers in `builder.findServerAssets` so that `read` can find them ([#17505](https://github.com/sveltejs/kit/pull/17505))
+
+- fix: set `navigation.from` to `null` in `afterNavigate` on start when SSR is disabled ([#17587](https://github.com/sveltejs/kit/pull/17587))
+
+- fix: remove empty type output directories for removed routes ([#17472](https://github.com/sveltejs/kit/pull/17472))
+
+- fix: use the UTF-8 byte length when reading inline assets ([#17590](https://github.com/sveltejs/kit/pull/17590))
+
+- chore: simplify a few server and build helpers ([#17531](https://github.com/sveltejs/kit/pull/17531))
+
+- fix: ignore the query string and hash of an imported asset's URL when using `read` ([#17507](https://github.com/sveltejs/kit/pull/17507))
+
+- fix: avoid reloading unrelated server modules when saving files during development ([#17462](https://github.com/sveltejs/kit/pull/17462))
+
 ## 3.1.1
 
 ### Patch Changes
